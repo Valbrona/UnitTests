@@ -1,4 +1,4 @@
-def do_stuff(num=0):
+def do_stuff(num=0): # the function can be separately called and the argument can be given
     try:
         if num:
             return int(num) + 5
